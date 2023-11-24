@@ -1,0 +1,138 @@
+
+footer{
+    background-color: #333;
+    color: #fff;
+}
+header{
+    background-color: #333;
+    color: #fff;
+}
+.sidebar{
+    background-color: #2b2626;
+}
+#joel1{
+    background-image: url(img/c:\Users\Alumno\Music\senna.jpg);
+}
+#pagina2{
+    background-image: url(img/c:\Users\Alumno\Music\senna2.jpg);
+}
+#pagina3{
+    background-image: url(img/c:\Users\Alumno\Music\senna3.jpg);
+}
+
+body, h1, h2, p, ul, li, address {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    justify-content: center;
+}
+body {
+    background-image: url(img/c:\Users\Alumno\Music\senna.jpg);  
+    background-size:cover;
+}
+header {
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav li a {
+    transition: font-size 0.25s ease-in-out; 
+  }
+  
+  nav li a:hover {
+    font-size: 1.3em;
+  }
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+    background-color: #fff;
+    margin: 20px;
+}
+footer {
+    text-align: center;
+    padding: 40px;
+    font-size: large;
+    column-count: 3;
+    margin-top: 20px;
+}
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+ul {
+    list-style: disc;
+}
+.sidebar {
+    float: right;
+    width: 25%;
+    padding-top:20px;
+    position: fixed;
+    margin-top: 70px;
+    right: 0px;
+}
+html {
+    scroll-behavior: smooth;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+}
+section{
+    border-radius: 30px;
+    margin: 20px;
+    padding: 40px;
+    width: 60%;
+    background-color: rgb(243, 174, 45);
+
+}
+section img{
+    width: 300px;
+    border-radius: 20px;
+    top: 0;
+    display: inline-block;
+}
+#subtitulo{
+    color: aliceblue;
+    background-color: #333;
+}
+.contacto{
+    background-color: darkblue;
+    text-align: center;
+    font-size: 1.5em;
+    color: aliceblue;
+    padding: 60px;
+    margin: 40px;
+    border-radius: 150px;
+}
+.video-cont{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 180px;
+}

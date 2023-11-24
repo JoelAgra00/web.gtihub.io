@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TÍTULO WEB</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="PAGINA3">
+    <!-- HEADER  -->
+    <header>
+        <h1>Contáctanos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Index</a></li>
+                <li><a href="pagina1.html">Información</a></li>
+                <li><a href="pagina2.html">Vídeo</a></li>
+                <li><a href="">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- --------------------- -->
+
+    <main class="contacto">
+        <h2>Información de Contacto</h2>
+        <p>Ponte en contacto con nosotros:</p>
+            <p>Email: pepecabanexo@gmail.com</p>
+            <p>Teléfono: 662 345 198</p>
+            <p>Dirección: Calle Travesas, Pontevedra, España</p>
+        <form action="enviar.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+
+    </main>
+
+    <div style="height: 600px;"></div>
+
+    <!-- --------------------- -->
+
+    <footer>
+        <p>pepecabanexo@gmail.com</p>
+        <p>tlf:662 345 198</p>
+        <p>Calle Travesas, Ciudad Pontevedra</p>
+    </footer>
+
+</body>
+</html>
